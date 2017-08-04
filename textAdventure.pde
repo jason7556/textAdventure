@@ -3,6 +3,7 @@ PImage start;
 PImage y1;
 PImage y2;
 PImage n1;
+PImage y3;
 
 int count;
 
@@ -12,6 +13,7 @@ void setup() {
   y1 = loadImage( "y1.jpg" );
   y2 = loadImage( "y2.jpg" );
   n1 = loadImage( "n1.jpg" );
+  y3 = loadImage ("y3.jpg" );
   
   size(800, 600);
   background(255);
@@ -54,9 +56,9 @@ void keyPressed()
         text ( "Argue with her.                         Press n", 60, 220 );
         println( count) ;
         } else if ( count == 3 ) {
-        background(255);
+        image ( y3 , 0 ,0 );
         fill(0);
-        text ( "YOU MADE IT!!!", 330, 300 ); 
+        text ( "YOU MADE IT!!!", 200, 200 ); 
         println( count) ;
         }
         }
@@ -95,7 +97,6 @@ void keyPressed()
     }
        
 }
-
 
 
 
