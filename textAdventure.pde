@@ -56,7 +56,7 @@ void keyPressed()
         } else if ( count == 3 ) {
         background(255);
         fill(0);
-        text ( "YOU MAKE IT!!!", 330, 300 ); 
+        text ( "YOU MADE IT!!!", 330, 300 ); 
         println( count) ;
         }
         }
